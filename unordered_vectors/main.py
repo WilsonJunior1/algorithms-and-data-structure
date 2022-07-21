@@ -6,6 +6,7 @@ class UnorderedVector():
         self.last_position = -1
         self.values =np.empty(self.leng, dtype=int)
 
+
     def printValues(self):
         if self.last_position == -1:
             print(f"The vector is empty!\n")
